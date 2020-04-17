@@ -1,0 +1,23 @@
+{
+  "name": "learn-npm",
+  "version": "1.0.0",
+  "description": "npm tutorial on linkedin learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "nodemonthis": "nodemon ./index.js --exec babel-node -e js",  
+    "createAngular": "npx -p @angular/cli ng new myapp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Huang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
